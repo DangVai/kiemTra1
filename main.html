@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Entry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Web Thời Trang</h2>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <label>
+                            Image Product:
+                            <input type="text" name="img" id="img"/>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            Product Name:
+                            <input type="text" name="name" id="name"/>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            New Price:
+                            <input type="number" name="new" id="new" step="0.01"/>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            Old Price:
+                            <input type="number" name="old" id="old" step="0.01"/>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            Type:
+                            <input type="text" name="type" id="type"/>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            Code:
+                            <input type="text" name="code" id="code"/>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn btn-primary" type="button" onclick="Add()">Add</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 id="kieu">Thời Trang</h1>
+        <div id="productCards">
+            
+            <!-- Các thẻ card sẽ được thêm vào đây -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
